@@ -1,0 +1,2609 @@
+{
+  "openapi" : "3.0.1",
+  "info" : {
+    "title" : "/NFOWSG",
+    "description" : "A collection of APIs under /NFOWSG built using API Generator Version 8.63.4 (8e84af194b5636a0d48bdd744f6eebc7c954fec2) @ 20220314112558",
+    "license" : {
+      "name" : "Proprietary"
+    },
+    "version" : "8.63.4"
+  },
+  "paths" : {
+    "/NFO2181S_DETAIL_MASTER_CASE/REGISTER" : {
+      "post" : {
+        "summary" : "NFO2181SDETAILMSTCASESERVER00",
+        "operationId" : "post00001",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.NFO2181WImportsDTO"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "description" : "Success",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.NFO2181WExportsDTO"
+                }
+              }
+            }
+          },
+          "400" : {
+            "description" : "Client validation errors",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/ErrorEntryList"
+                }
+              }
+            }
+          },
+          "500" : {
+            "description" : "Internal server error",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/ErrorEntryList"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/NFO64H1S_PR_APP_TIE_PGM/UPDREC" : {
+      "post" : {
+        "summary" : "NFO64H1SPRAPPTIEPGMCASESVR00",
+        "operationId" : "post00002",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/NFOCUS.NFO64H1J.NFO64H1W.NFO64H1WImportsDTO"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "description" : "Success",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/NFOCUS.NFO64H1J.NFO64H1W.NFO64H1WExportsDTO"
+                }
+              }
+            }
+          },
+          "400" : {
+            "description" : "Client validation errors",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/ErrorEntryList"
+                }
+              }
+            }
+          },
+          "500" : {
+            "description" : "Internal server error",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/ErrorEntryList"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/NFO28U1S_PC_MANUAL_MODE_CHG/SEARCH" : {
+      "post" : {
+        "summary" : "NFO28U1SPCMANUALMODECHG00",
+        "operationId" : "post00003",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/NFOCUS.NFO28U1J.NFO28U1W.NFO28U1WImportsDTO"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "description" : "Success",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/NFOCUS.NFO28U1J.NFO28U1W.NFO28U1WExportsDTO"
+                }
+              }
+            }
+          },
+          "400" : {
+            "description" : "Client validation errors",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/ErrorEntryList"
+                }
+              }
+            }
+          },
+          "500" : {
+            "description" : "Internal server error",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/ErrorEntryList"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/NFO28U1S_PC_MANUAL_MODE_CHG/WORKTASK" : {
+      "post" : {
+        "summary" : "NFO28U1SPCMANUALMODECHG01",
+        "operationId" : "post00004",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/NFOCUS.NFO28U2J.NFO28U2W.NFO28U2WImportsDTO"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "description" : "Success",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/NFOCUS.NFO28U2J.NFO28U2W.NFO28U2WExportsDTO"
+                }
+              }
+            }
+          },
+          "400" : {
+            "description" : "Client validation errors",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/ErrorEntryList"
+                }
+              }
+            }
+          },
+          "500" : {
+            "description" : "Internal server error",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/ErrorEntryList"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components" : {
+    "schemas" : {
+      "NFOCUS.NFO2181J.NFO2181W.NFO2181WExportsDTO" : {
+        "required" : [ "command", "exitStateMsg", "group_out_mc", "group_out_pc", "ot_ctv_mploymnt_frst_f_sppld", "ot_dd_prson_drng_rgs_f_sppld", "ot_f_mssg_dc_fnd_cod_f_sppld", "ot_mstr_cs_nm_gncy_rltd_prson", "ot_nbl_snction_flg_if_spplid", "ot_qlfyng_dc_progrm_cs_hstory", "ot_rgistrtion_comp_if_spplid", "ot_rp_tnf_ccm_months_f_sppld", "out_aaa_checkout_workset", "out_aaa_work", "out_dss_office", "out_master_case", "out_nfo20135_mastr_cas_workst", "out_qulifying_dc_pcpi_history", "t_lgn_wrkr_ssgnd_wrkr_f_sppld", "t_xstng_mplymnt_frst_f_sppld", "tctvsnpfrprsnxstsfsppld" ],
+        "type" : "object",
+        "properties" : {
+          "command" : {
+            "maxLength" : 80,
+            "minLength" : 80,
+            "type" : "string"
+          },
+          "exitStateMsg" : {
+            "maxLength" : 80,
+            "minLength" : 80,
+            "type" : "string"
+          },
+          "ot_rp_tnf_ccm_months_f_sppld" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.ot_rp_tnf_ccm_months_f_sppldExportsDTO"
+          },
+          "out_aaa_work" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.out_aaa_workExportsDTO"
+          },
+          "ot_dd_prson_drng_rgs_f_sppld" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.ot_dd_prson_drng_rgs_f_sppldExportsDTO"
+          },
+          "out_master_case" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.out_master_caseExportsDTO"
+          },
+          "ot_mstr_cs_nm_gncy_rltd_prson" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.ot_mstr_cs_nm_gncy_rltd_prsonExportsDTO"
+          },
+          "out_dss_office" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.out_dss_officeExportsDTO"
+          },
+          "ot_rgistrtion_comp_if_spplid" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.ot_rgistrtion_comp_if_spplidExportsDTO"
+          },
+          "out_aaa_checkout_workset" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.out_aaa_checkout_worksetExportsDTO"
+          },
+          "group_out_mc" : {
+            "maxItems" : 29,
+            "minItems" : 0,
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.group_out_mcExportsDTO"
+            }
+          },
+          "group_out_pc" : {
+            "maxItems" : 59,
+            "minItems" : 0,
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.group_out_pcExportsDTO"
+            }
+          },
+          "ot_f_mssg_dc_fnd_cod_f_sppld" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.ot_f_mssg_dc_fnd_cod_f_sppldExportsDTO"
+          },
+          "ot_qlfyng_dc_progrm_cs_hstory" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.ot_qlfyng_dc_progrm_cs_hstoryExportsDTO"
+          },
+          "out_qulifying_dc_pcpi_history" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.out_qulifying_dc_pcpi_historyExportsDTO"
+          },
+          "t_xstng_mplymnt_frst_f_sppld" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.t_xstng_mplymnt_frst_f_sppldExportsDTO"
+          },
+          "ot_ctv_mploymnt_frst_f_sppld" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.ot_ctv_mploymnt_frst_f_sppldExportsDTO"
+          },
+          "ot_nbl_snction_flg_if_spplid" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.ot_nbl_snction_flg_if_spplidExportsDTO"
+          },
+          "out_nfo20135_mastr_cas_workst" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.out_nfo20135_mastr_cas_workstExportsDTO"
+          },
+          "t_lgn_wrkr_ssgnd_wrkr_f_sppld" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.t_lgn_wrkr_ssgnd_wrkr_f_sppldExportsDTO"
+          },
+          "tctvsnpfrprsnxstsfsppld" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.tctvsnpfrprsnxstsfsppldExportsDTO"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.group_out_mcExportsDTO" : {
+        "required" : [ "ot_grop_mc_rlst_mstr_cs_prson", "out_group_mc_gncy_rltd_prson", "out_group_mc_ief_supplied", "out_group_mc_mastr_cas_prson", "out_group_mc_nfo20011_dtil_rp", "out_group_mc_pregnancy", "t_grp_mc_rc_nf_prvdd_f_sppld", "tgrpmcnbrnmmgncyrltdprsn", "tgrpmctfhhcldflgfsppld" ],
+        "type" : "object",
+        "properties" : {
+          "out_group_mc_ief_supplied" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.out_group_mc_ief_suppliedExportsDTO"
+          },
+          "out_group_mc_gncy_rltd_prson" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.out_group_mc_gncy_rltd_prsonExportsDTO"
+          },
+          "t_grp_mc_rc_nf_prvdd_f_sppld" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.t_grp_mc_rc_nf_prvdd_f_sppldExportsDTO"
+          },
+          "out_group_mc_mastr_cas_prson" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.out_group_mc_mastr_cas_prsonExportsDTO"
+          },
+          "out_group_mc_nfo20011_dtil_rp" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.out_group_mc_nfo20011_dtil_rpExportsDTO"
+          },
+          "out_group_mc_pregnancy" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.out_group_mc_pregnancyExportsDTO"
+          },
+          "tgrpmcnbrnmmgncyrltdprsn" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.tgrpmcnbrnmmgncyrltdprsnExportsDTO"
+          },
+          "ot_grop_mc_rlst_mstr_cs_prson" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.ot_grop_mc_rlst_mstr_cs_prsonExportsDTO"
+          },
+          "tgrpmctfhhcldflgfsppld" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.tgrpmctfhhcldflgfsppldExportsDTO"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.group_out_pcExportsDTO" : {
+        "required" : [ "ot_grop_nw_mc_for_pc_mstr_cs", "out_group_aaa_date_conversion", "out_group_pc_aaa_program_dcod", "out_group_pc_gncy_rltd_prson", "out_group_pc_ief_supplied", "out_group_pc_program_case", "out_group_pc_ssistnc_dcod", "out_group_program_case_history", "t_grp_nf20021_mstr_cs_dcds", "tgrppcmstrcsprgrmcsnvlv" ],
+        "type" : "object",
+        "properties" : {
+          "out_group_pc_ief_supplied" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.out_group_pc_ief_suppliedExportsDTO"
+          },
+          "out_group_pc_program_case" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.out_group_pc_program_caseExportsDTO"
+          },
+          "out_group_pc_gncy_rltd_prson" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.out_group_pc_gncy_rltd_prsonExportsDTO"
+          },
+          "out_group_program_case_history" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.out_group_program_case_historyExportsDTO"
+          },
+          "out_group_pc_aaa_program_dcod" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.out_group_pc_aaa_program_dcodExportsDTO"
+          },
+          "out_group_pc_ssistnc_dcod" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.out_group_pc_ssistnc_dcodExportsDTO"
+          },
+          "t_grp_nf20021_mstr_cs_dcds" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.t_grp_nf20021_mstr_cs_dcdsExportsDTO"
+          },
+          "out_group_aaa_date_conversion" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.out_group_aaa_date_conversionExportsDTO"
+          },
+          "ot_grop_nw_mc_for_pc_mstr_cs" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.ot_grop_nw_mc_for_pc_mstr_csExportsDTO"
+          },
+          "tgrppcmstrcsprgrmcsnvlv" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.tgrppcmstrcsprgrmcsnvlvExportsDTO"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.ot_ctv_mploymnt_frst_f_sppldExportsDTO" : {
+        "required" : [ "flag" ],
+        "type" : "object",
+        "properties" : {
+          "flag" : {
+            "maxLength" : 1,
+            "minLength" : 1,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.ot_dd_prson_drng_rgs_f_sppldExportsDTO" : {
+        "required" : [ "flag" ],
+        "type" : "object",
+        "properties" : {
+          "flag" : {
+            "maxLength" : 1,
+            "minLength" : 1,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.ot_f_mssg_dc_fnd_cod_f_sppldExportsDTO" : {
+        "required" : [ "flag" ],
+        "type" : "object",
+        "properties" : {
+          "flag" : {
+            "maxLength" : 1,
+            "minLength" : 1,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.ot_grop_mc_rlst_mstr_cs_prsonExportsDTO" : {
+        "required" : [ "begin_date" ],
+        "type" : "object",
+        "properties" : {
+          "begin_date" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.ot_grop_nw_mc_for_pc_mstr_csExportsDTO" : {
+        "required" : [ "identification_number" ],
+        "type" : "object",
+        "properties" : {
+          "identification_number" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.ot_mstr_cs_nm_gncy_rltd_prsonExportsDTO" : {
+        "required" : [ "birthdate", "discontinue_arp_indicator", "first_name", "identification_number", "last_name", "middle_name", "name_extension_code", "sex_code", "social_security_number" ],
+        "type" : "object",
+        "properties" : {
+          "last_name" : {
+            "maxLength" : 25,
+            "minLength" : 25,
+            "type" : "string"
+          },
+          "first_name" : {
+            "maxLength" : 20,
+            "minLength" : 20,
+            "type" : "string"
+          },
+          "middle_name" : {
+            "maxLength" : 20,
+            "minLength" : 20,
+            "type" : "string"
+          },
+          "name_extension_code" : {
+            "maxLength" : 3,
+            "minLength" : 3,
+            "type" : "string"
+          },
+          "identification_number" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "social_security_number" : {
+            "maxLength" : 9,
+            "minLength" : 9,
+            "type" : "string"
+          },
+          "birthdate" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "sex_code" : {
+            "maxLength" : 1,
+            "minLength" : 1,
+            "type" : "string"
+          },
+          "discontinue_arp_indicator" : {
+            "maxLength" : 1,
+            "minLength" : 1,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.ot_nbl_snction_flg_if_spplidExportsDTO" : {
+        "required" : [ "flag" ],
+        "type" : "object",
+        "properties" : {
+          "flag" : {
+            "maxLength" : 1,
+            "minLength" : 1,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.ot_qlfyng_dc_progrm_cs_hstoryExportsDTO" : {
+        "required" : [ "application_received_date" ],
+        "type" : "object",
+        "properties" : {
+          "application_received_date" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.ot_rgistrtion_comp_if_spplidExportsDTO" : {
+        "required" : [ "flag" ],
+        "type" : "object",
+        "properties" : {
+          "flag" : {
+            "maxLength" : 1,
+            "minLength" : 1,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.ot_rp_tnf_ccm_months_f_sppldExportsDTO" : {
+        "required" : [ "count" ],
+        "type" : "object",
+        "properties" : {
+          "count" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.out_aaa_checkout_worksetExportsDTO" : {
+        "required" : [ "entity_id_number", "entity_name", "ret_cde", "status", "userid" ],
+        "type" : "object",
+        "properties" : {
+          "ret_cde" : {
+            "maxLength" : 1,
+            "minLength" : 1,
+            "type" : "string"
+          },
+          "status" : {
+            "maxLength" : 1,
+            "minLength" : 1,
+            "type" : "string"
+          },
+          "userid" : {
+            "maxLength" : 8,
+            "minLength" : 8,
+            "type" : "string"
+          },
+          "entity_name" : {
+            "maxLength" : 32,
+            "minLength" : 32,
+            "type" : "string"
+          },
+          "entity_id_number" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.out_aaa_workExportsDTO" : {
+        "required" : [ "return_code" ],
+        "type" : "object",
+        "properties" : {
+          "return_code" : {
+            "maxLength" : 8,
+            "minLength" : 8,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.out_dss_officeExportsDTO" : {
+        "required" : [ "identification_number", "name" ],
+        "type" : "object",
+        "properties" : {
+          "identification_number" : {
+            "maxLength" : 3,
+            "minLength" : 3,
+            "type" : "string"
+          },
+          "name" : {
+            "maxLength" : 48,
+            "minLength" : 48,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.out_group_aaa_date_conversionExportsDTO" : {
+        "required" : [ "date_ief_format" ],
+        "type" : "object",
+        "properties" : {
+          "date_ief_format" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.out_group_mc_gncy_rltd_prsonExportsDTO" : {
+        "required" : [ "birthdate", "deceased_date", "discontinue_arp_indicator", "first_name", "identification_number", "interface_ssn_xref_id", "last_name", "middle_name", "name_extension_code", "sex_code", "social_security_number" ],
+        "type" : "object",
+        "properties" : {
+          "identification_number" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "birthdate" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "last_name" : {
+            "maxLength" : 25,
+            "minLength" : 25,
+            "type" : "string"
+          },
+          "first_name" : {
+            "maxLength" : 20,
+            "minLength" : 20,
+            "type" : "string"
+          },
+          "middle_name" : {
+            "maxLength" : 20,
+            "minLength" : 20,
+            "type" : "string"
+          },
+          "name_extension_code" : {
+            "maxLength" : 3,
+            "minLength" : 3,
+            "type" : "string"
+          },
+          "social_security_number" : {
+            "maxLength" : 9,
+            "minLength" : 9,
+            "type" : "string"
+          },
+          "sex_code" : {
+            "maxLength" : 1,
+            "minLength" : 1,
+            "type" : "string"
+          },
+          "interface_ssn_xref_id" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "deceased_date" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "discontinue_arp_indicator" : {
+            "maxLength" : 1,
+            "minLength" : 1,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.out_group_mc_ief_suppliedExportsDTO" : {
+        "required" : [ "count", "select_char" ],
+        "type" : "object",
+        "properties" : {
+          "select_char" : {
+            "maxLength" : 1,
+            "minLength" : 1,
+            "type" : "string"
+          },
+          "count" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.out_group_mc_mastr_cas_prsonExportsDTO" : {
+        "required" : [ "begin_date", "end_date", "hh_membership_rsn_cd", "houshold_mmbrship_status_cod" ],
+        "type" : "object",
+        "properties" : {
+          "houshold_mmbrship_status_cod" : {
+            "maxLength" : 2,
+            "minLength" : 2,
+            "type" : "string"
+          },
+          "begin_date" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "end_date" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "hh_membership_rsn_cd" : {
+            "maxLength" : 2,
+            "minLength" : 2,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.out_group_mc_nfo20011_dtil_rpExportsDTO" : {
+        "required" : [ "hh_membership_status" ],
+        "type" : "object",
+        "properties" : {
+          "hh_membership_status" : {
+            "maxLength" : 15,
+            "minLength" : 15,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.out_group_mc_pregnancyExportsDTO" : {
+        "required" : [ "end_date", "expected_delivery_date" ],
+        "type" : "object",
+        "properties" : {
+          "expected_delivery_date" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "end_date" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.out_group_pc_aaa_program_dcodExportsDTO" : {
+        "required" : [ "category_id", "mode_short_decode" ],
+        "type" : "object",
+        "properties" : {
+          "category_id" : {
+            "maxLength" : 4,
+            "minLength" : 4,
+            "type" : "string"
+          },
+          "mode_short_decode" : {
+            "maxLength" : 8,
+            "minLength" : 8,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.out_group_pc_gncy_rltd_prsonExportsDTO" : {
+        "required" : [ "first_name", "identification_number", "last_name", "middle_name", "name_extension_code" ],
+        "type" : "object",
+        "properties" : {
+          "identification_number" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "last_name" : {
+            "maxLength" : 25,
+            "minLength" : 25,
+            "type" : "string"
+          },
+          "first_name" : {
+            "maxLength" : 20,
+            "minLength" : 20,
+            "type" : "string"
+          },
+          "middle_name" : {
+            "maxLength" : 20,
+            "minLength" : 20,
+            "type" : "string"
+          },
+          "name_extension_code" : {
+            "maxLength" : 3,
+            "minLength" : 3,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.out_group_pc_ief_suppliedExportsDTO" : {
+        "required" : [ "count", "select_char" ],
+        "type" : "object",
+        "properties" : {
+          "select_char" : {
+            "maxLength" : 1,
+            "minLength" : 1,
+            "type" : "string"
+          },
+          "count" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.out_group_pc_program_caseExportsDTO" : {
+        "required" : [ "identification_number", "mode_code", "program_code" ],
+        "type" : "object",
+        "properties" : {
+          "identification_number" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "program_code" : {
+            "maxLength" : 2,
+            "minLength" : 2,
+            "type" : "string"
+          },
+          "mode_code" : {
+            "maxLength" : 2,
+            "minLength" : 2,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.out_group_pc_ssistnc_dcodExportsDTO" : {
+        "required" : [ "program_code" ],
+        "type" : "object",
+        "properties" : {
+          "program_code" : {
+            "maxLength" : 3,
+            "minLength" : 3,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.out_group_program_case_historyExportsDTO" : {
+        "required" : [ "assistance_code", "begin_date", "fund_code", "retro_medicaid_indicator", "status_code" ],
+        "type" : "object",
+        "properties" : {
+          "assistance_code" : {
+            "maxLength" : 2,
+            "minLength" : 2,
+            "type" : "string"
+          },
+          "status_code" : {
+            "maxLength" : 2,
+            "minLength" : 2,
+            "type" : "string"
+          },
+          "begin_date" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "fund_code" : {
+            "maxLength" : 2,
+            "minLength" : 2,
+            "type" : "string"
+          },
+          "retro_medicaid_indicator" : {
+            "maxLength" : 1,
+            "minLength" : 1,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.out_master_caseExportsDTO" : {
+        "required" : [ "identification_number", "mltc_mode_code", "mode_code", "restricted_access_indicator" ],
+        "type" : "object",
+        "properties" : {
+          "identification_number" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "mode_code" : {
+            "maxLength" : 2,
+            "minLength" : 2,
+            "type" : "string"
+          },
+          "mltc_mode_code" : {
+            "maxLength" : 2,
+            "minLength" : 2,
+            "type" : "string"
+          },
+          "restricted_access_indicator" : {
+            "maxLength" : 1,
+            "minLength" : 1,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.out_nfo20135_mastr_cas_workstExportsDTO" : {
+        "required" : [ "check_for_assigned_only", "mc_is_assigned" ],
+        "type" : "object",
+        "properties" : {
+          "mc_is_assigned" : {
+            "maxLength" : 1,
+            "minLength" : 1,
+            "type" : "string"
+          },
+          "check_for_assigned_only" : {
+            "maxLength" : 1,
+            "minLength" : 1,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.out_qulifying_dc_pcpi_historyExportsDTO" : {
+        "required" : [ "application_request_date" ],
+        "type" : "object",
+        "properties" : {
+          "application_request_date" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.t_grp_mc_rc_nf_prvdd_f_sppldExportsDTO" : {
+        "required" : [ "flag" ],
+        "type" : "object",
+        "properties" : {
+          "flag" : {
+            "maxLength" : 1,
+            "minLength" : 1,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.t_grp_nf20021_mstr_cs_dcdsExportsDTO" : {
+        "required" : [ "status_decode" ],
+        "type" : "object",
+        "properties" : {
+          "status_decode" : {
+            "maxLength" : 10,
+            "minLength" : 10,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.t_lgn_wrkr_ssgnd_wrkr_f_sppldExportsDTO" : {
+        "required" : [ "flag" ],
+        "type" : "object",
+        "properties" : {
+          "flag" : {
+            "maxLength" : 1,
+            "minLength" : 1,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.t_xstng_mplymnt_frst_f_sppldExportsDTO" : {
+        "required" : [ "flag" ],
+        "type" : "object",
+        "properties" : {
+          "flag" : {
+            "maxLength" : 1,
+            "minLength" : 1,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.tctvsnpfrprsnxstsfsppldExportsDTO" : {
+        "required" : [ "flag" ],
+        "type" : "object",
+        "properties" : {
+          "flag" : {
+            "maxLength" : 1,
+            "minLength" : 1,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.tgrpmcnbrnmmgncyrltdprsnExportsDTO" : {
+        "required" : [ "first_name" ],
+        "type" : "object",
+        "properties" : {
+          "first_name" : {
+            "maxLength" : 20,
+            "minLength" : 20,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.tgrpmctfhhcldflgfsppldExportsDTO" : {
+        "required" : [ "flag" ],
+        "type" : "object",
+        "properties" : {
+          "flag" : {
+            "maxLength" : 1,
+            "minLength" : 1,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.tgrppcmstrcsprgrmcsnvlvExportsDTO" : {
+        "required" : [ "begin_date", "end_date" ],
+        "type" : "object",
+        "properties" : {
+          "begin_date" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "end_date" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        }
+      },
+      "ErrorEntry" : {
+        "type" : "object",
+        "properties" : {
+          "additionalData" : {
+            "type" : "string"
+          },
+          "level" : {
+            "type" : "string"
+          },
+          "message" : {
+            "type" : "string"
+          },
+          "source" : {
+            "type" : "string"
+          },
+          "stackTrace" : {
+            "type" : "string"
+          }
+        }
+      },
+      "ErrorEntryList" : {
+        "type" : "object",
+        "properties" : {
+          "errors" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/ErrorEntry"
+            }
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.NFO2181WImportsDTO" : {
+        "required" : [ "clientId", "clientPassword", "dialect", "group_in_new_pgms_selected", "group_in_telephone", "in_aaa_user_context_data_mgmt", "in_aaa_work", "in_address_chg_ief_supplied", "in_agency_related_person", "in_arp_res_ief_supplied", "in_pa_address", "in_pa_arp_addressee", "in_pa_chg_ief_supplied", "in_selected_arp_ief_supplied", "in_telephone_chg_ief_supplied", "in_user_function_audit", "n_prmry_prson_rgstr_f_sppld", "nextLocation" ],
+        "type" : "object",
+        "properties" : {
+          "clientPassword" : {
+            "maxLength" : 64,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "clientId" : {
+            "maxLength" : 64,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "dialect" : {
+            "maxLength" : 8,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "nextLocation" : {
+            "maxLength" : 80,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "in_aaa_work" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.in_aaa_workImportsDTO"
+          },
+          "in_agency_related_person" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.in_agency_related_personImportsDTO"
+          },
+          "n_prmry_prson_rgstr_f_sppld" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.n_prmry_prson_rgstr_f_sppldImportsDTO"
+          },
+          "in_selected_arp_ief_supplied" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.in_selected_arp_ief_suppliedImportsDTO"
+          },
+          "in_arp_res_ief_supplied" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.in_arp_res_ief_suppliedImportsDTO"
+          },
+          "in_address_chg_ief_supplied" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.in_address_chg_ief_suppliedImportsDTO"
+          },
+          "in_pa_chg_ief_supplied" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.in_pa_chg_ief_suppliedImportsDTO"
+          },
+          "in_pa_arp_addressee" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.in_pa_arp_addresseeImportsDTO"
+          },
+          "in_pa_address" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.in_pa_addressImportsDTO"
+          },
+          "in_telephone_chg_ief_supplied" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.in_telephone_chg_ief_suppliedImportsDTO"
+          },
+          "in_aaa_user_context_data_mgmt" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.in_aaa_user_context_data_mgmtImportsDTO"
+          },
+          "group_in_new_pgms_selected" : {
+            "maxItems" : 25,
+            "minItems" : 0,
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.group_in_new_pgms_selectedImportsDTO"
+            }
+          },
+          "group_in_telephone" : {
+            "maxItems" : 10,
+            "minItems" : 0,
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.group_in_telephoneImportsDTO"
+            }
+          },
+          "in_user_function_audit" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.in_user_function_auditImportsDTO"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.group_in_new_pgms_selectedImportsDTO" : {
+        "required" : [ "n_grop_nw_pgms_slctd_f_sppld", "n_grp_nw_pgms_slctd_pcp_hstry", "n_grp_nw_pgms_slctd_prgrm_cs", "ngrpnwmssctdpgcsltrspprttrkng", "ngrpnwpgmsslctdprgrmcshstry", "ngrpnwpgmsslctdssstncdcd" ],
+        "type" : "object",
+        "properties" : {
+          "n_grop_nw_pgms_slctd_f_sppld" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.n_grop_nw_pgms_slctd_f_sppldImportsDTO"
+          },
+          "n_grp_nw_pgms_slctd_prgrm_cs" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.n_grp_nw_pgms_slctd_prgrm_csImportsDTO"
+          },
+          "ngrpnwpgmsslctdprgrmcshstry" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.ngrpnwpgmsslctdprgrmcshstryImportsDTO"
+          },
+          "n_grp_nw_pgms_slctd_pcp_hstry" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.n_grp_nw_pgms_slctd_pcp_hstryImportsDTO"
+          },
+          "ngrpnwpgmsslctdssstncdcd" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.ngrpnwpgmsslctdssstncdcdImportsDTO"
+          },
+          "ngrpnwmssctdpgcsltrspprttrkng" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.ngrpnwmssctdpgcsltrspprttrkngImportsDTO"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.group_in_telephoneImportsDTO" : {
+        "required" : [ "in_group_telephone_number" ],
+        "type" : "object",
+        "properties" : {
+          "in_group_telephone_number" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO2181J.NFO2181W.in_group_telephone_numberImportsDTO"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.in_aaa_user_context_data_mgmtImportsDTO" : {
+        "required" : [ "dss_office", "dss_office_position" ],
+        "type" : "object",
+        "properties" : {
+          "dss_office" : {
+            "maxLength" : 3,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "dss_office_position" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.in_aaa_workImportsDTO" : {
+        "required" : [ "current_date" ],
+        "type" : "object",
+        "properties" : {
+          "current_date" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.in_address_chg_ief_suppliedImportsDTO" : {
+        "required" : [ "flag" ],
+        "type" : "object",
+        "properties" : {
+          "flag" : {
+            "maxLength" : 1,
+            "minLength" : 0,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.in_agency_related_personImportsDTO" : {
+        "required" : [ "birthdate", "first_name", "interpreter_need_indicator", "last_name", "middle_name", "name_extension_code", "primary_oral_language_code", "primary_written_language_code", "sex_code", "social_security_number" ],
+        "type" : "object",
+        "properties" : {
+          "last_name" : {
+            "maxLength" : 25,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "first_name" : {
+            "maxLength" : 20,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "middle_name" : {
+            "maxLength" : 20,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "name_extension_code" : {
+            "maxLength" : 3,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "social_security_number" : {
+            "maxLength" : 9,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "birthdate" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "sex_code" : {
+            "maxLength" : 1,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "interpreter_need_indicator" : {
+            "maxLength" : 1,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "primary_written_language_code" : {
+            "maxLength" : 2,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "primary_oral_language_code" : {
+            "maxLength" : 2,
+            "minLength" : 0,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.in_arp_res_ief_suppliedImportsDTO" : {
+        "required" : [ "flag" ],
+        "type" : "object",
+        "properties" : {
+          "flag" : {
+            "maxLength" : 1,
+            "minLength" : 0,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.in_group_telephone_numberImportsDTO" : {
+        "required" : [ "area_code_number", "extension_number", "identification_number", "prefix_number", "suffix_number", "type_code" ],
+        "type" : "object",
+        "properties" : {
+          "extension_number" : {
+            "maxLength" : 4,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "area_code_number" : {
+            "maxLength" : 3,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "prefix_number" : {
+            "maxLength" : 3,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "suffix_number" : {
+            "maxLength" : 4,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "identification_number" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "type_code" : {
+            "maxLength" : 2,
+            "minLength" : 0,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.in_pa_addressImportsDTO" : {
+        "required" : [ "attention_code", "attention_to_name", "city", "county_residence_code", "directions_description", "elementary_school_code", "high_school", "identification_number", "junior_high", "line_1", "line_2", "line_3", "po_box", "post_dirctional_dscription_cd", "pr_dirctional_dscription_cod", "primary_address_description", "school_district", "secondary_unit_code", "secondary_unit_description", "state_code", "street_name", "street_type_code", "zip4_code", "zip5_code" ],
+        "type" : "object",
+        "properties" : {
+          "identification_number" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "line_1" : {
+            "maxLength" : 50,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "line_2" : {
+            "maxLength" : 50,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "line_3" : {
+            "maxLength" : 50,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "city" : {
+            "maxLength" : 25,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "state_code" : {
+            "maxLength" : 2,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "zip5_code" : {
+            "maxLength" : 5,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "zip4_code" : {
+            "maxLength" : 4,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "county_residence_code" : {
+            "maxLength" : 3,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "directions_description" : {
+            "maxLength" : 150,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "elementary_school_code" : {
+            "maxLength" : 3,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "school_district" : {
+            "maxLength" : 6,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "high_school" : {
+            "maxLength" : 3,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "junior_high" : {
+            "maxLength" : 3,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "attention_code" : {
+            "maxLength" : 2,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "attention_to_name" : {
+            "maxLength" : 40,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "po_box" : {
+            "maxLength" : 8,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "pr_dirctional_dscription_cod" : {
+            "maxLength" : 2,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "street_name" : {
+            "maxLength" : 50,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "post_dirctional_dscription_cd" : {
+            "maxLength" : 2,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "secondary_unit_code" : {
+            "maxLength" : 4,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "secondary_unit_description" : {
+            "maxLength" : 8,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "primary_address_description" : {
+            "maxLength" : 8,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "street_type_code" : {
+            "maxLength" : 5,
+            "minLength" : 0,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.in_pa_arp_addresseeImportsDTO" : {
+        "required" : [ "begin_date", "end_date", "identification_number", "last_know_address_indicator", "type_code" ],
+        "type" : "object",
+        "properties" : {
+          "identification_number" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "type_code" : {
+            "maxLength" : 2,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "begin_date" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "end_date" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "last_know_address_indicator" : {
+            "maxLength" : 1,
+            "minLength" : 0,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.in_pa_chg_ief_suppliedImportsDTO" : {
+        "required" : [ "flag" ],
+        "type" : "object",
+        "properties" : {
+          "flag" : {
+            "maxLength" : 1,
+            "minLength" : 0,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.in_selected_arp_ief_suppliedImportsDTO" : {
+        "required" : [ "flag" ],
+        "type" : "object",
+        "properties" : {
+          "flag" : {
+            "maxLength" : 1,
+            "minLength" : 0,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.in_telephone_chg_ief_suppliedImportsDTO" : {
+        "required" : [ "flag" ],
+        "type" : "object",
+        "properties" : {
+          "flag" : {
+            "maxLength" : 1,
+            "minLength" : 0,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.in_user_function_auditImportsDTO" : {
+        "required" : [ "computer_name" ],
+        "type" : "object",
+        "properties" : {
+          "computer_name" : {
+            "maxLength" : 8,
+            "minLength" : 0,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.n_grop_nw_pgms_slctd_f_sppldImportsDTO" : {
+        "required" : [ "select_char" ],
+        "type" : "object",
+        "properties" : {
+          "select_char" : {
+            "maxLength" : 1,
+            "minLength" : 0,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.n_grp_nw_pgms_slctd_pcp_hstryImportsDTO" : {
+        "required" : [ "adult_child_code", "application_request_date", "begin_date", "category_code", "financially_resp_reason_code", "fund_code", "prorated_date", "role_code", "status_code", "status_reason_code" ],
+        "type" : "object",
+        "properties" : {
+          "begin_date" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "adult_child_code" : {
+            "maxLength" : 2,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "category_code" : {
+            "maxLength" : 2,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "application_request_date" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "role_code" : {
+            "maxLength" : 2,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "fund_code" : {
+            "maxLength" : 2,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "financially_resp_reason_code" : {
+            "maxLength" : 2,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "status_code" : {
+            "maxLength" : 2,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "status_reason_code" : {
+            "maxLength" : 2,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "prorated_date" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.n_grp_nw_pgms_slctd_prgrm_csImportsDTO" : {
+        "required" : [ "food_stamp_issuance_code", "mail_type_code", "program_code", "xxx_last_review_date", "xxx_next_review_date" ],
+        "type" : "object",
+        "properties" : {
+          "program_code" : {
+            "maxLength" : 2,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "mail_type_code" : {
+            "maxLength" : 2,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "food_stamp_issuance_code" : {
+            "maxLength" : 2,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "xxx_next_review_date" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "xxx_last_review_date" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.n_prmry_prson_rgstr_f_sppldImportsDTO" : {
+        "required" : [ "flag" ],
+        "type" : "object",
+        "properties" : {
+          "flag" : {
+            "maxLength" : 1,
+            "minLength" : 0,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.ngrpnwmssctdpgcsltrspprttrkngImportsDTO" : {
+        "required" : [ "begin_date", "county_code" ],
+        "type" : "object",
+        "properties" : {
+          "begin_date" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "county_code" : {
+            "maxLength" : 3,
+            "minLength" : 0,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.ngrpnwpgmsslctdprgrmcshstryImportsDTO" : {
+        "required" : [ "application_received_date", "assistance_code", "begin_date", "crisis_energy_code", "crisis_energy_reason_code", "crisis_energy_request_date", "eligibility_decision_date", "food_stamp_expedited_case_ind", "fund_code", "proration_date", "public_housing_indicator", "service_need_reason_code", "single_parent_indicator", "status_code", "status_reason_code" ],
+        "type" : "object",
+        "properties" : {
+          "assistance_code" : {
+            "maxLength" : 2,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "fund_code" : {
+            "maxLength" : 2,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "begin_date" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "application_received_date" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "food_stamp_expedited_case_ind" : {
+            "maxLength" : 1,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "crisis_energy_code" : {
+            "maxLength" : 2,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "crisis_energy_reason_code" : {
+            "maxLength" : 2,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "crisis_energy_request_date" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "status_code" : {
+            "maxLength" : 2,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "status_reason_code" : {
+            "maxLength" : 2,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "service_need_reason_code" : {
+            "maxLength" : 2,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "public_housing_indicator" : {
+            "maxLength" : 1,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "single_parent_indicator" : {
+            "maxLength" : 1,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "eligibility_decision_date" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "proration_date" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        }
+      },
+      "NFOCUS.NFO2181J.NFO2181W.ngrpnwpgmsslctdssstncdcdImportsDTO" : {
+        "required" : [ "medicaid_auth", "platform_code" ],
+        "type" : "object",
+        "properties" : {
+          "platform_code" : {
+            "maxLength" : 1,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "medicaid_auth" : {
+            "maxLength" : 1,
+            "minLength" : 0,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO64H1J.NFO64H1W.NFO64H1WExportsDTO" : {
+        "required" : [ "command", "exitStateMsg", "ot_ppr_pp_lrdy_xsts_f_sppld", "out_aaa_checkout_workset", "out_electronic_application" ],
+        "type" : "object",
+        "properties" : {
+          "command" : {
+            "maxLength" : 80,
+            "minLength" : 80,
+            "type" : "string"
+          },
+          "exitStateMsg" : {
+            "maxLength" : 80,
+            "minLength" : 80,
+            "type" : "string"
+          },
+          "ot_ppr_pp_lrdy_xsts_f_sppld" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO64H1J.NFO64H1W.ot_ppr_pp_lrdy_xsts_f_sppldExportsDTO"
+          },
+          "out_electronic_application" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO64H1J.NFO64H1W.out_electronic_applicationExportsDTO"
+          },
+          "out_aaa_checkout_workset" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO64H1J.NFO64H1W.out_aaa_checkout_worksetExportsDTO"
+          }
+        }
+      },
+      "NFOCUS.NFO64H1J.NFO64H1W.ot_ppr_pp_lrdy_xsts_f_sppldExportsDTO" : {
+        "required" : [ "flag" ],
+        "type" : "object",
+        "properties" : {
+          "flag" : {
+            "maxLength" : 1,
+            "minLength" : 1,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO64H1J.NFO64H1W.out_aaa_checkout_worksetExportsDTO" : {
+        "required" : [ "entity_id_number", "entity_name", "ret_cde", "status", "userid" ],
+        "type" : "object",
+        "properties" : {
+          "ret_cde" : {
+            "maxLength" : 1,
+            "minLength" : 1,
+            "type" : "string"
+          },
+          "status" : {
+            "maxLength" : 1,
+            "minLength" : 1,
+            "type" : "string"
+          },
+          "userid" : {
+            "maxLength" : 8,
+            "minLength" : 8,
+            "type" : "string"
+          },
+          "entity_name" : {
+            "maxLength" : 32,
+            "minLength" : 32,
+            "type" : "string"
+          },
+          "entity_id_number" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        }
+      },
+      "NFOCUS.NFO64H1J.NFO64H1W.out_electronic_applicationExportsDTO" : {
+        "required" : [ "applicant_first_name", "applicant_last_name", "applicant_middle_name", "applicant_name_extension_code", "applicant_phonetic_last_name", "category_code", "client_application_id_number", "current_status_code", "identification_number", "medicaid_assistance_code", "received_date", "request_date", "type_code" ],
+        "type" : "object",
+        "properties" : {
+          "identification_number" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "client_application_id_number" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "applicant_first_name" : {
+            "maxLength" : 20,
+            "minLength" : 20,
+            "type" : "string"
+          },
+          "applicant_last_name" : {
+            "maxLength" : 25,
+            "minLength" : 25,
+            "type" : "string"
+          },
+          "applicant_middle_name" : {
+            "maxLength" : 20,
+            "minLength" : 20,
+            "type" : "string"
+          },
+          "applicant_name_extension_code" : {
+            "maxLength" : 3,
+            "minLength" : 3,
+            "type" : "string"
+          },
+          "applicant_phonetic_last_name" : {
+            "maxLength" : 8,
+            "minLength" : 8,
+            "type" : "string"
+          },
+          "received_date" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "request_date" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "type_code" : {
+            "maxLength" : 2,
+            "minLength" : 2,
+            "type" : "string"
+          },
+          "category_code" : {
+            "maxLength" : 2,
+            "minLength" : 2,
+            "type" : "string"
+          },
+          "medicaid_assistance_code" : {
+            "maxLength" : 2,
+            "minLength" : 2,
+            "type" : "string"
+          },
+          "current_status_code" : {
+            "maxLength" : 2,
+            "minLength" : 2,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO64H1J.NFO64H1W.NFO64H1WImportsDTO" : {
+        "required" : [ "clientId", "clientPassword", "dialect", "group_in_tie_listbox", "in_aaa_user_context_data_mgmt", "in_aaa_work", "in_cas_rgistration_if_supplid", "in_electronic_application", "in_master_case", "nextLocation" ],
+        "type" : "object",
+        "properties" : {
+          "clientPassword" : {
+            "maxLength" : 64,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "clientId" : {
+            "maxLength" : 64,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "dialect" : {
+            "maxLength" : 8,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "nextLocation" : {
+            "maxLength" : 80,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "group_in_tie_listbox" : {
+            "maxItems" : 40,
+            "minItems" : 0,
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/NFOCUS.NFO64H1J.NFO64H1W.group_in_tie_listboxImportsDTO"
+            }
+          },
+          "in_master_case" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO64H1J.NFO64H1W.in_master_caseImportsDTO"
+          },
+          "in_electronic_application" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO64H1J.NFO64H1W.in_electronic_applicationImportsDTO"
+          },
+          "in_aaa_work" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO64H1J.NFO64H1W.in_aaa_workImportsDTO"
+          },
+          "in_aaa_user_context_data_mgmt" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO64H1J.NFO64H1W.in_aaa_user_context_data_mgmtImportsDTO"
+          },
+          "in_cas_rgistration_if_supplid" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO64H1J.NFO64H1W.in_cas_rgistration_if_supplidImportsDTO"
+          }
+        }
+      },
+      "NFOCUS.NFO64H1J.NFO64H1W.group_in_tie_listboxImportsDTO" : {
+        "required" : [ "in_grop_ti_listbox_if_spplid", "in_group_ti_listbox_mastr_cas", "in_group_ti_listbox_progrm_cs", "n_grop_t_lstbox_dp_f_sppld", "n_grop_t_lstbox_gnrc_cod_vw", "n_grop_t_lstbox_progrm_dcod", "n_grop_t_lstbox_ssstnc_dcod", "n_grp_t_lstbx_gncy_rltd_prsn", "n_grp_t_lstbx_prgrm_cs_hstry", "ngrptlstbxlctrncpppgmcsnvlv" ],
+        "type" : "object",
+        "properties" : {
+          "in_grop_ti_listbox_if_spplid" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO64H1J.NFO64H1W.in_grop_ti_listbox_if_spplidImportsDTO"
+          },
+          "in_group_ti_listbox_progrm_cs" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO64H1J.NFO64H1W.in_group_ti_listbox_progrm_csImportsDTO"
+          },
+          "n_grp_t_lstbx_gncy_rltd_prsn" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO64H1J.NFO64H1W.n_grp_t_lstbx_gncy_rltd_prsnImportsDTO"
+          },
+          "n_grp_t_lstbx_prgrm_cs_hstry" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO64H1J.NFO64H1W.n_grp_t_lstbx_prgrm_cs_hstryImportsDTO"
+          },
+          "n_grop_t_lstbox_progrm_dcod" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO64H1J.NFO64H1W.n_grop_t_lstbox_progrm_dcodImportsDTO"
+          },
+          "n_grop_t_lstbox_ssstnc_dcod" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO64H1J.NFO64H1W.n_grop_t_lstbox_ssstnc_dcodImportsDTO"
+          },
+          "in_group_ti_listbox_mastr_cas" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO64H1J.NFO64H1W.in_group_ti_listbox_mastr_casImportsDTO"
+          },
+          "ngrptlstbxlctrncpppgmcsnvlv" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO64H1J.NFO64H1W.ngrptlstbxlctrncpppgmcsnvlvImportsDTO"
+          },
+          "n_grop_t_lstbox_gnrc_cod_vw" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO64H1J.NFO64H1W.n_grop_t_lstbox_gnrc_cod_vwImportsDTO"
+          },
+          "n_grop_t_lstbox_dp_f_sppld" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO64H1J.NFO64H1W.n_grop_t_lstbox_dp_f_sppldImportsDTO"
+          }
+        }
+      },
+      "NFOCUS.NFO64H1J.NFO64H1W.in_aaa_user_context_data_mgmtImportsDTO" : {
+        "required" : [ "context_data_key", "dss_office", "dss_office_position", "instance_checker_action", "instance_id_number", "password", "userid" ],
+        "type" : "object",
+        "properties" : {
+          "context_data_key" : {
+            "maxLength" : 25,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "dss_office_position" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "dss_office" : {
+            "maxLength" : 3,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "userid" : {
+            "maxLength" : 8,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "password" : {
+            "maxLength" : 8,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "instance_checker_action" : {
+            "maxLength" : 1,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "instance_id_number" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        }
+      },
+      "NFOCUS.NFO64H1J.NFO64H1W.in_aaa_workImportsDTO" : {
+        "required" : [ "current_date" ],
+        "type" : "object",
+        "properties" : {
+          "current_date" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        }
+      },
+      "NFOCUS.NFO64H1J.NFO64H1W.in_cas_rgistration_if_supplidImportsDTO" : {
+        "required" : [ "flag" ],
+        "type" : "object",
+        "properties" : {
+          "flag" : {
+            "maxLength" : 1,
+            "minLength" : 0,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO64H1J.NFO64H1W.in_electronic_applicationImportsDTO" : {
+        "required" : [ "applicant_first_name", "applicant_last_name", "applicant_middle_name", "applicant_name_extension_code", "applicant_phonetic_last_name", "category_code", "client_application_id_number", "current_status_code", "identification_number", "medicaid_assistance_code", "received_date", "request_date", "type_code" ],
+        "type" : "object",
+        "properties" : {
+          "identification_number" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "client_application_id_number" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "applicant_first_name" : {
+            "maxLength" : 20,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "applicant_last_name" : {
+            "maxLength" : 25,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "applicant_middle_name" : {
+            "maxLength" : 20,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "applicant_name_extension_code" : {
+            "maxLength" : 3,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "applicant_phonetic_last_name" : {
+            "maxLength" : 8,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "received_date" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "request_date" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "type_code" : {
+            "maxLength" : 2,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "category_code" : {
+            "maxLength" : 2,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "medicaid_assistance_code" : {
+            "maxLength" : 2,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "current_status_code" : {
+            "maxLength" : 2,
+            "minLength" : 0,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO64H1J.NFO64H1W.in_grop_ti_listbox_if_spplidImportsDTO" : {
+        "required" : [ "count", "select_char" ],
+        "type" : "object",
+        "properties" : {
+          "select_char" : {
+            "maxLength" : 1,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "count" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        }
+      },
+      "NFOCUS.NFO64H1J.NFO64H1W.in_group_ti_listbox_mastr_casImportsDTO" : {
+        "required" : [ "identification_number" ],
+        "type" : "object",
+        "properties" : {
+          "identification_number" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        }
+      },
+      "NFOCUS.NFO64H1J.NFO64H1W.in_group_ti_listbox_progrm_csImportsDTO" : {
+        "required" : [ "identification_number", "program_code" ],
+        "type" : "object",
+        "properties" : {
+          "identification_number" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "program_code" : {
+            "maxLength" : 2,
+            "minLength" : 0,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO64H1J.NFO64H1W.in_master_caseImportsDTO" : {
+        "required" : [ "identification_number" ],
+        "type" : "object",
+        "properties" : {
+          "identification_number" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        }
+      },
+      "NFOCUS.NFO64H1J.NFO64H1W.n_grop_t_lstbox_dp_f_sppldImportsDTO" : {
+        "required" : [ "flag" ],
+        "type" : "object",
+        "properties" : {
+          "flag" : {
+            "maxLength" : 1,
+            "minLength" : 0,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO64H1J.NFO64H1W.n_grop_t_lstbox_gnrc_cod_vwImportsDTO" : {
+        "required" : [ "code_id", "decode_valu", "short_decode" ],
+        "type" : "object",
+        "properties" : {
+          "code_id" : {
+            "maxLength" : 30,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "decode_valu" : {
+            "maxLength" : 200,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "short_decode" : {
+            "maxLength" : 50,
+            "minLength" : 0,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO64H1J.NFO64H1W.n_grop_t_lstbox_progrm_dcodImportsDTO" : {
+        "required" : [ "short_decode" ],
+        "type" : "object",
+        "properties" : {
+          "short_decode" : {
+            "maxLength" : 10,
+            "minLength" : 0,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO64H1J.NFO64H1W.n_grop_t_lstbox_ssstnc_dcodImportsDTO" : {
+        "required" : [ "short_description" ],
+        "type" : "object",
+        "properties" : {
+          "short_description" : {
+            "maxLength" : 15,
+            "minLength" : 0,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO64H1J.NFO64H1W.n_grp_t_lstbx_gncy_rltd_prsnImportsDTO" : {
+        "required" : [ "first_name", "identification_number", "last_name", "middle_name", "name_extension_code" ],
+        "type" : "object",
+        "properties" : {
+          "identification_number" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "last_name" : {
+            "maxLength" : 25,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "first_name" : {
+            "maxLength" : 20,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "middle_name" : {
+            "maxLength" : 20,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "name_extension_code" : {
+            "maxLength" : 3,
+            "minLength" : 0,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO64H1J.NFO64H1W.n_grp_t_lstbx_prgrm_cs_hstryImportsDTO" : {
+        "required" : [ "application_received_date", "assistance_code" ],
+        "type" : "object",
+        "properties" : {
+          "assistance_code" : {
+            "maxLength" : 2,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "application_received_date" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        }
+      },
+      "NFOCUS.NFO64H1J.NFO64H1W.ngrptlstbxlctrncpppgmcsnvlvImportsDTO" : {
+        "required" : [ "reason_code" ],
+        "type" : "object",
+        "properties" : {
+          "reason_code" : {
+            "maxLength" : 2,
+            "minLength" : 0,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO28U1J.NFO28U1W.NFO28U1WExportsDTO" : {
+        "required" : [ "command", "exitStateMsg", "group_out_pc", "out_parent_master_case" ],
+        "type" : "object",
+        "properties" : {
+          "command" : {
+            "maxLength" : 80,
+            "minLength" : 80,
+            "type" : "string"
+          },
+          "exitStateMsg" : {
+            "maxLength" : 80,
+            "minLength" : 80,
+            "type" : "string"
+          },
+          "out_parent_master_case" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO28U1J.NFO28U1W.out_parent_master_caseExportsDTO"
+          },
+          "group_out_pc" : {
+            "maxItems" : 59,
+            "minItems" : 0,
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/NFOCUS.NFO28U1J.NFO28U1W.group_out_pcExportsDTO"
+            }
+          }
+        }
+      },
+      "NFOCUS.NFO28U1J.NFO28U1W.group_out_pcExportsDTO" : {
+        "required" : [ "ot_grop_pc_nd_dt_dt_convrsion", "ot_grop_pc_progrm_cs_history", "out_group_pc_aaa_program_dcod", "out_group_pc_gncy_rltd_prson", "out_group_pc_ief_supplied", "out_group_pc_program_case", "out_group_pc_ssistnc_dcod", "t_grp_pc_ftr_pndng_rw_f_sppld", "t_grp_pc_rcmmndd_md_prgrm_cs" ],
+        "type" : "object",
+        "properties" : {
+          "out_group_pc_ief_supplied" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO28U1J.NFO28U1W.out_group_pc_ief_suppliedExportsDTO"
+          },
+          "out_group_pc_program_case" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO28U1J.NFO28U1W.out_group_pc_program_caseExportsDTO"
+          },
+          "out_group_pc_gncy_rltd_prson" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO28U1J.NFO28U1W.out_group_pc_gncy_rltd_prsonExportsDTO"
+          },
+          "ot_grop_pc_progrm_cs_history" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO28U1J.NFO28U1W.ot_grop_pc_progrm_cs_historyExportsDTO"
+          },
+          "out_group_pc_aaa_program_dcod" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO28U1J.NFO28U1W.out_group_pc_aaa_program_dcodExportsDTO"
+          },
+          "out_group_pc_ssistnc_dcod" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO28U1J.NFO28U1W.out_group_pc_ssistnc_dcodExportsDTO"
+          },
+          "ot_grop_pc_nd_dt_dt_convrsion" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO28U1J.NFO28U1W.ot_grop_pc_nd_dt_dt_convrsionExportsDTO"
+          },
+          "t_grp_pc_rcmmndd_md_prgrm_cs" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO28U1J.NFO28U1W.t_grp_pc_rcmmndd_md_prgrm_csExportsDTO"
+          },
+          "t_grp_pc_ftr_pndng_rw_f_sppld" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO28U1J.NFO28U1W.t_grp_pc_ftr_pndng_rw_f_sppldExportsDTO"
+          }
+        }
+      },
+      "NFOCUS.NFO28U1J.NFO28U1W.ot_grop_pc_nd_dt_dt_convrsionExportsDTO" : {
+        "required" : [ "date_text_10" ],
+        "type" : "object",
+        "properties" : {
+          "date_text_10" : {
+            "maxLength" : 10,
+            "minLength" : 10,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO28U1J.NFO28U1W.ot_grop_pc_progrm_cs_historyExportsDTO" : {
+        "required" : [ "assistance_code", "begin_date", "end_date", "food_stamp_expedited_case_ind", "status_code" ],
+        "type" : "object",
+        "properties" : {
+          "assistance_code" : {
+            "maxLength" : 2,
+            "minLength" : 2,
+            "type" : "string"
+          },
+          "status_code" : {
+            "maxLength" : 2,
+            "minLength" : 2,
+            "type" : "string"
+          },
+          "begin_date" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "end_date" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "food_stamp_expedited_case_ind" : {
+            "maxLength" : 1,
+            "minLength" : 1,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO28U1J.NFO28U1W.out_group_pc_aaa_program_dcodExportsDTO" : {
+        "required" : [ "mode_short_decode", "short_decode" ],
+        "type" : "object",
+        "properties" : {
+          "mode_short_decode" : {
+            "maxLength" : 8,
+            "minLength" : 8,
+            "type" : "string"
+          },
+          "short_decode" : {
+            "maxLength" : 10,
+            "minLength" : 10,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO28U1J.NFO28U1W.out_group_pc_gncy_rltd_prsonExportsDTO" : {
+        "required" : [ "first_name", "last_name", "middle_name", "name_extension_code" ],
+        "type" : "object",
+        "properties" : {
+          "last_name" : {
+            "maxLength" : 25,
+            "minLength" : 25,
+            "type" : "string"
+          },
+          "first_name" : {
+            "maxLength" : 20,
+            "minLength" : 20,
+            "type" : "string"
+          },
+          "middle_name" : {
+            "maxLength" : 20,
+            "minLength" : 20,
+            "type" : "string"
+          },
+          "name_extension_code" : {
+            "maxLength" : 3,
+            "minLength" : 3,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO28U1J.NFO28U1W.out_group_pc_ief_suppliedExportsDTO" : {
+        "required" : [ "count", "select_char" ],
+        "type" : "object",
+        "properties" : {
+          "select_char" : {
+            "maxLength" : 1,
+            "minLength" : 1,
+            "type" : "string"
+          },
+          "count" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        }
+      },
+      "NFOCUS.NFO28U1J.NFO28U1W.out_group_pc_program_caseExportsDTO" : {
+        "required" : [ "identification_number", "mode_code", "program_code" ],
+        "type" : "object",
+        "properties" : {
+          "identification_number" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "program_code" : {
+            "maxLength" : 2,
+            "minLength" : 2,
+            "type" : "string"
+          },
+          "mode_code" : {
+            "maxLength" : 2,
+            "minLength" : 2,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO28U1J.NFO28U1W.out_group_pc_ssistnc_dcodExportsDTO" : {
+        "required" : [ "short_description" ],
+        "type" : "object",
+        "properties" : {
+          "short_description" : {
+            "maxLength" : 15,
+            "minLength" : 15,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO28U1J.NFO28U1W.out_parent_master_caseExportsDTO" : {
+        "required" : [ "identification_number" ],
+        "type" : "object",
+        "properties" : {
+          "identification_number" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        }
+      },
+      "NFOCUS.NFO28U1J.NFO28U1W.t_grp_pc_ftr_pndng_rw_f_sppldExportsDTO" : {
+        "required" : [ "flag" ],
+        "type" : "object",
+        "properties" : {
+          "flag" : {
+            "maxLength" : 1,
+            "minLength" : 1,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO28U1J.NFO28U1W.t_grp_pc_rcmmndd_md_prgrm_csExportsDTO" : {
+        "required" : [ "mode_code" ],
+        "type" : "object",
+        "properties" : {
+          "mode_code" : {
+            "maxLength" : 2,
+            "minLength" : 2,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO28U1J.NFO28U1W.NFO28U1WImportsDTO" : {
+        "required" : [ "clientId", "clientPassword", "dialect", "in_aaa_work", "in_confirmtion_mod_if_supplid", "in_parent_master_case", "in_poplt_mstr_cs_nm_if_spplid", "nextLocation" ],
+        "type" : "object",
+        "properties" : {
+          "clientPassword" : {
+            "maxLength" : 64,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "clientId" : {
+            "maxLength" : 64,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "dialect" : {
+            "maxLength" : 8,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "nextLocation" : {
+            "maxLength" : 80,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "in_parent_master_case" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO28U1J.NFO28U1W.in_parent_master_caseImportsDTO"
+          },
+          "in_aaa_work" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO28U1J.NFO28U1W.in_aaa_workImportsDTO"
+          },
+          "in_poplt_mstr_cs_nm_if_spplid" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO28U1J.NFO28U1W.in_poplt_mstr_cs_nm_if_spplidImportsDTO"
+          },
+          "in_confirmtion_mod_if_supplid" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO28U1J.NFO28U1W.in_confirmtion_mod_if_supplidImportsDTO"
+          }
+        }
+      },
+      "NFOCUS.NFO28U1J.NFO28U1W.in_aaa_workImportsDTO" : {
+        "required" : [ "current_date" ],
+        "type" : "object",
+        "properties" : {
+          "current_date" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        }
+      },
+      "NFOCUS.NFO28U1J.NFO28U1W.in_confirmtion_mod_if_supplidImportsDTO" : {
+        "required" : [ "flag" ],
+        "type" : "object",
+        "properties" : {
+          "flag" : {
+            "maxLength" : 1,
+            "minLength" : 0,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO28U1J.NFO28U1W.in_parent_master_caseImportsDTO" : {
+        "required" : [ "identification_number" ],
+        "type" : "object",
+        "properties" : {
+          "identification_number" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        }
+      },
+      "NFOCUS.NFO28U1J.NFO28U1W.in_poplt_mstr_cs_nm_if_spplidImportsDTO" : {
+        "required" : [ "flag" ],
+        "type" : "object",
+        "properties" : {
+          "flag" : {
+            "maxLength" : 1,
+            "minLength" : 0,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO28U2J.NFO28U2W.NFO28U2WExportsDTO" : {
+        "required" : [ "command", "exitStateMsg", "out_parent_master_case" ],
+        "type" : "object",
+        "properties" : {
+          "command" : {
+            "maxLength" : 80,
+            "minLength" : 80,
+            "type" : "string"
+          },
+          "exitStateMsg" : {
+            "maxLength" : 80,
+            "minLength" : 80,
+            "type" : "string"
+          },
+          "out_parent_master_case" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO28U2J.NFO28U2W.out_parent_master_caseExportsDTO"
+          }
+        }
+      },
+      "NFOCUS.NFO28U2J.NFO28U2W.out_parent_master_caseExportsDTO" : {
+        "required" : [ "identification_number" ],
+        "type" : "object",
+        "properties" : {
+          "identification_number" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        }
+      },
+      "NFOCUS.NFO28U2J.NFO28U2W.NFO28U2WImportsDTO" : {
+        "required" : [ "clientId", "clientPassword", "dialect", "group_in_selected_mode_chg", "in_aaa_work", "in_confirmtion_mod_if_supplid", "in_parent_master_case", "in_poplt_mstr_cs_nm_if_spplid", "nextLocation" ],
+        "type" : "object",
+        "properties" : {
+          "clientPassword" : {
+            "maxLength" : 64,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "clientId" : {
+            "maxLength" : 64,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "dialect" : {
+            "maxLength" : 8,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "nextLocation" : {
+            "maxLength" : 80,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "in_parent_master_case" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO28U2J.NFO28U2W.in_parent_master_caseImportsDTO"
+          },
+          "in_aaa_work" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO28U2J.NFO28U2W.in_aaa_workImportsDTO"
+          },
+          "in_poplt_mstr_cs_nm_if_spplid" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO28U2J.NFO28U2W.in_poplt_mstr_cs_nm_if_spplidImportsDTO"
+          },
+          "group_in_selected_mode_chg" : {
+            "maxItems" : 60,
+            "minItems" : 0,
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/NFOCUS.NFO28U2J.NFO28U2W.group_in_selected_mode_chgImportsDTO"
+            }
+          },
+          "in_confirmtion_mod_if_supplid" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO28U2J.NFO28U2W.in_confirmtion_mod_if_supplidImportsDTO"
+          }
+        }
+      },
+      "NFOCUS.NFO28U2J.NFO28U2W.group_in_selected_mode_chgImportsDTO" : {
+        "required" : [ "n_grp_sl_nw_md_chg_prgrm_cs", "ngrpslcrrntmdchgprgrmcs" ],
+        "type" : "object",
+        "properties" : {
+          "n_grp_sl_nw_md_chg_prgrm_cs" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO28U2J.NFO28U2W.n_grp_sl_nw_md_chg_prgrm_csImportsDTO"
+          },
+          "ngrpslcrrntmdchgprgrmcs" : {
+            "$ref" : "#/components/schemas/NFOCUS.NFO28U2J.NFO28U2W.ngrpslcrrntmdchgprgrmcsImportsDTO"
+          }
+        }
+      },
+      "NFOCUS.NFO28U2J.NFO28U2W.in_aaa_workImportsDTO" : {
+        "required" : [ "current_date" ],
+        "type" : "object",
+        "properties" : {
+          "current_date" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        }
+      },
+      "NFOCUS.NFO28U2J.NFO28U2W.in_confirmtion_mod_if_supplidImportsDTO" : {
+        "required" : [ "flag" ],
+        "type" : "object",
+        "properties" : {
+          "flag" : {
+            "maxLength" : 1,
+            "minLength" : 0,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO28U2J.NFO28U2W.in_parent_master_caseImportsDTO" : {
+        "required" : [ "identification_number" ],
+        "type" : "object",
+        "properties" : {
+          "identification_number" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        }
+      },
+      "NFOCUS.NFO28U2J.NFO28U2W.in_poplt_mstr_cs_nm_if_spplidImportsDTO" : {
+        "required" : [ "flag" ],
+        "type" : "object",
+        "properties" : {
+          "flag" : {
+            "maxLength" : 1,
+            "minLength" : 0,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO28U2J.NFO28U2W.n_grp_sl_nw_md_chg_prgrm_csImportsDTO" : {
+        "required" : [ "identification_number", "mode_code", "program_code" ],
+        "type" : "object",
+        "properties" : {
+          "identification_number" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "program_code" : {
+            "maxLength" : 2,
+            "minLength" : 0,
+            "type" : "string"
+          },
+          "mode_code" : {
+            "maxLength" : 2,
+            "minLength" : 0,
+            "type" : "string"
+          }
+        }
+      },
+      "NFOCUS.NFO28U2J.NFO28U2W.ngrpslcrrntmdchgprgrmcsImportsDTO" : {
+        "required" : [ "mode_code" ],
+        "type" : "object",
+        "properties" : {
+          "mode_code" : {
+            "maxLength" : 2,
+            "minLength" : 0,
+            "type" : "string"
+          }
+        }
+      }
+    }
+  }
+}
